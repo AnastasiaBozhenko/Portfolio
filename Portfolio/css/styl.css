@@ -1,0 +1,48 @@
+:root{
+    --blue:#14213D;
+    --yellow:#FCA311;
+    --grey:#E5E5E5;
+}
+body{
+    background-color: var(--grey);
+    padding: 70px 50px;
+}
+h1{
+    text-shadow: 1px 1px 1px var(--yellow);
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:var(--blue);
+}
+.card-hello{
+    background-color: var(--yellow);
+}
+
+.btn-ab{
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    background-color: var(--yellow);
+    border-color: white;
+    color: var(--blue);
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+.btn-ab:hover{
+    background-color: var(--blue);
+    color: var(--yellow);
+    box-shadow: 2px 2px 8px rgb(46, 46, 62);
+}
+.line{
+    width: 130px;
+    height: 3px;
+    background-color: var(--yellow);
+
+}
+
+.img-circler{
+
+    margin-top: -150px;
+
+}
